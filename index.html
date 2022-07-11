@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2nd program</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .hello>P {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.6;
+            font-size: 1.5em;
+            background-color: rgb(85, 82, 82);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="main-nav">
+            <h2>Web Technologies</h2>
+            <ul>
+                <li>Lab 2 Program</li>
+            </ul>
+        </nav>
+
+
+        <h3> To demonstrate the usage of inline, external and <br> internal style sheet using CSS</h3>
+
+        <div>
+
+            <button class="btn">Inline CSS</button>
+            <button class="btn">Internal CSS</button>
+            <button class="btn">External CSS</button>
+        </div>
+    </header>
+
+    <!-- <section class="grid">
+        <div class="box">
+            <h2>Box 1</h2>
+            <p>For Inline Demonstration</p>
+
+            <p>This paragraph demostrates the usage of inline style sheet of css</p>
+
+            <h2>I am Inline Style Sheet </h2>
+        </div>
+
+        <div class="box">
+            <h2>Box 2</h2>
+            <p>For Internal Demonstration</p>
+            <p> This paragraph demostrates usage of external style sheet by calling the external.css file</p>
+            <ol>
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+        </div>
+
+        <div class="box">
+            <h2>Box 3</h2>
+            <p>For External Demonstration</p>
+        </div>
+    </section> -->
+
+    <section>
+        <div class="texts box">
+            <p>For Inline Demonstration</p>
+            <br>
+            <div>
+                &lt;p style="text-align:center;"&gt;This paragraph demostrates the usage of inline style sheet of css
+                &lt;/p&gt;
+                <br> <br>
+                &lt;h2 style="font-size:20pt; color:red; text-align: center;" &gt; I am Inline Style Sheet &lt;/h2&gt;
+            </div>
+        </div>
+        <div class="media">
+            <p style="text-align:center;">This paragraph demostrates the usage of inline style sheet of css</p>
+
+            <h2 style="font-size:20pt; color:red; text-align: center;">I am Inline Style Sheet </h2>
+        </div>
+    </section>
+    <section>
+        <div class="texts box">
+            <p>For Internal Demonstration</p>
+            <div class="left">
+                &lt; head &gt;
+                <br>
+                &lt; style &gt; <br>
+                <div class="space">
+
+                    .hello>P { <br>
+                    font-family: Verdana, Geneva, Tahoma, sans-serif; <br>
+                    background-color: rgb(85, 82, 82); <br>
+                    border-radius: 5px; <br>
+                    }
+                </div>
+                &lt; /style &gt; <br>
+                &lt; / head &gt;
+            </div>
+
+        </div>
+        <div class="hello">
+            <p>
+                This paragraph demostrates usage of internal style sheet by calling the external.css file <br>
+                <br>
+                1. Admission Started for MCA<br />
+                2. Eligible candidates can apply<br />
+                3. Hurry up
+
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="texts box">
+            <p>For External Demonstration</p>
+            <div class="left">
+                &lt; head &gt; <br>
+                &lt; link rel="stylesheet" href="css/style.css" &gt; <br>
+                &lt;/ head &gt;
+            </div>
+        </div>
+        <div class="media2">
+            <table form="3" class="content-table">
+                <thead>
+
+                    <tr>
+                        <th>Sl. No.</th>
+                        <th>Name</th>
+                        <th>USN</th>
+                        <th>Sem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>MITHIN</td>
+                        <td>123</td>
+                        <td>1st</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>KIRAN</td>
+                        <td>456</td>
+                        <td>2nd</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>PRAVEEN</td>
+                        <td>789</td>
+                        <td>3rd</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>GEETHA</td>
+                        <td>143</td>
+                        <td>4th</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Ajith m</p>
+    </footer>
+</body>
+
+</html>
